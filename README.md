@@ -1,5 +1,4 @@
 # Closures
-All Closure types
 
 
 
