@@ -44,7 +44,7 @@ closureWithouthParamAndWithReturns()
 ```
 
 
-**Closure is parameter in functions:**
+**Closures are parameters in functions:**
 ```
 let closureAsAParameter = {
     print("closure as a parameter")
@@ -103,8 +103,3 @@ var parameters = "closure9"
 closure9(param: &parameters, closureWithReturn)
 print(parameters)
 ```
-
-
-
-    
-    
