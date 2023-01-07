@@ -19,3 +19,30 @@ let closure2 = { (param: String) in
 }
 closure2("parameter")
 ```
+
+**Closure with params**
+```
+let closureWithParameters = { (name: String, id: Int) in
+    print("\(name) \(id)")
+}
+closureWithParameters("Ahmet", 17)
+```
+
+**Returns closure**
+```
+let closureWithParamAndReturn = { (param: String) -> String in
+    return "Closure with returning \(param)"
+}
+let closureWithReturningObject = closureWithParamAndReturn("parameter")
+print(closureWithReturningObject)
+
+let closureWithouthParamAndWithReturns = { () -> Bool in
+    print("Closure without param and with returns")
+    return true
+}
+closureWithouthParamAndWithReturns()
+
+```
+    
+    
+    
